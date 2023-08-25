@@ -555,7 +555,7 @@ form {
 input {
     width: 264px;
     height: 40px;
-
+    color: #fff;
     font-family: inherit;
     background-color: #2E2F42;
     border-radius: 4px;
@@ -594,14 +594,15 @@ input::placeholder {
     background: #4D5AE5;
 }
 
-.icon-button-footer {
-    position: relative;
-    padding-right: 24px;
+.icon-div {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
-.icon-button {
-    position: absolute;
-    right: 25px;
-    top: 8px;
-
+.icon-par {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
