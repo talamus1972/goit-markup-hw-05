@@ -77,6 +77,15 @@ a {
     margin: 0 auto;
 }
 
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+textarea {
+    padding: 0;
+}
 
 /* Header */
 
@@ -252,6 +261,9 @@ body {
         url(../images/people-office.jpg);
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
+
+
 }
 
 .button {
@@ -268,6 +280,7 @@ body {
     border: none;
     border-radius: 4px;
     display: block;
+
     /* animation */
     transition-property: background-color;
     transition-duration: 250ms;
@@ -278,6 +291,97 @@ body {
 .button:focus {
     background-color: #404BBF;
 }
+
+/* -----------------Form----------------------------- */
+
+/* .box-form {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+} */
+
+.form-hidden {
+    position: absolute;
+    bottom: 12px;
+    left: 516px;
+    right: 516px;
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    background: #FCFCFC;
+    padding-top: 72px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-group-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+
+.form-label {
+
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    color: #8E8F99;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+}
+
+.input {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+}
+
+.textarea {
+    width: 360px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+}
+
+.textarea::placeholder {
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: 0.48px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+
+
+
+
+
 
 /* Section 2 */
 
@@ -574,7 +678,7 @@ body {
 
 }
 
-form {
+.footer-form {
     display: flex;
     align-items: flex-end;
 }
@@ -588,7 +692,7 @@ form {
 
 }
 
-input {
+.footer-input {
     width: 264px;
     height: 40px;
     color: #fff;
