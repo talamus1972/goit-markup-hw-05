@@ -585,79 +585,77 @@ body {
 
 /* 3 block */
 
-.label-div {
+/* .label-div {
     margin-left: 80px;
 
+} */
+
+
+
+/* .label-footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+ */
+
+
+.footer-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 .footer-form {
     display: flex;
-    align-items: flex-end;
-}
-
-
-.label-footer {
-    display: flex;
-    flex-direction: column;
-    margin-right: 24px;
-
-
+    gap: 24px;
 }
 
 .footer-input {
     width: 264px;
     height: 40px;
-    color: #fff;
-    font-family: inherit;
-    background-color: #2E2F42;
-    border-radius: 4px;
     border: 1px solid #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #fff;
 }
 
 input::placeholder {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
     color: #FFF;
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.48px;
 }
 
 .button-footer {
-
-
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    border: none;
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    border-radius: 4px;
-    background: #4D5AE5;
-}
-
-.icon-div {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFF;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
 }
 
-.icon-par {
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+.icon-button {
+    margin-left: 16px;
 }
+
+
+
+
 
 /* -----------------Form----------------------------- */
 
