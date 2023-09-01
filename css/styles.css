@@ -674,7 +674,7 @@ input::placeholder {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate (-50%, -50%) scale (1);
+    transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
     background: #fcfcfc;
@@ -830,7 +830,7 @@ input::placeholder {
 
 }
 
-input:checked+.icon-checkbox {
+input:checked+.checkbox-text>.icon-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
