@@ -585,18 +585,10 @@ body {
 
 /* 3 block */
 
-/* .label-div {
+.label-div {
     margin-left: 80px;
 
-} */
-
-
-
-/* .label-footer {
-    display: flex;
-    flex-direction: column;
-    margin-right: 24px;
- */
+}
 
 
 .footer-subscribe {
@@ -659,7 +651,7 @@ input::placeholder {
 
 /* -----------------Form----------------------------- */
 
-.box-form .is-hidden {
+.box-form {
     position: fixed;
     top: 0;
     left: 0;
