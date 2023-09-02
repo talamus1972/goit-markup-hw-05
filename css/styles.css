@@ -802,6 +802,7 @@ input::placeholder {
 
 .textarea:focus {
     border-color: #4D5AE5;
+
 }
 
 .checkbox {
