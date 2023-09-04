@@ -55,7 +55,7 @@
       <div class="container">
 
         <h1 class="title-one">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <button class="button" type="button" data-modal-open>Order Service</button>
       </div>
     </section>
 
@@ -439,11 +439,11 @@
 
   <!-- Modal window -->
 
-  <div class="box-form">
+  <div class="box-form is-hidden" data-modal>
 
     <div class="form-hidden">
 
-      <button class="closed-button" type="button">
+      <button class="closed-button" data-modal-close type="button">
         <svg class="icon-close-black" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
@@ -495,7 +495,7 @@
 
           <label for="user-privacy" class="checkbox-text"><span class="icon-checkbox"><svg class="icon-property-click"
                 width="10" height="8">
-                <use href="./images/icons.svg#icon-Property-click"></use>
+                <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
             </span>I accept the terms and conditions of the
             <a class="privacy-policy" href="">Privacy Policy</a>
@@ -506,7 +506,7 @@
       </form>
     </div>
   </div>
-
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
