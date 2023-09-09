@@ -844,6 +844,10 @@ input:checked+.checkbox-text>.icon-checkbox {
     fill: #F4F4FD;
 }
 
+input:focus+.checkbox-text>.icon-checkbox {
+    outline: 2px solid #4D5AE5;
+}
+
 .privacy-policy {
     color: #4D5AE5;
     text-decoration: underline;
